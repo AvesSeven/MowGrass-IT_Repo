@@ -1,11 +1,11 @@
 package org.obj;
 
 public class Tondeuse {
-    // protected : y avoir accès facilement dans le package
+    // protected : y avoir accès facilement dans le package (donc dans Pelouse)
     protected int posX;
     protected int posY;
     protected char orientation;
-    protected String nom;
+    protected int id;
     private static int cpt;
 
     /*
@@ -16,21 +16,31 @@ public class Tondeuse {
         this.posY = 0;
         this.orientation = 'N';
         cpt++;
-        this.nom = "Tond_" + cpt;
+        this.id = cpt;
     }
 
     public Tondeuse(int posX, int posY, char orientation) {
         this.posX = posX;
         this.posY = posY;
-        this.orientation = orientation;
+        this.orientation = Character.toUpperCase(orientation);
         cpt++;
-        this.nom = "Tond_" + cpt;
+        this.id = cpt;
     }
 
     /*
     * Methods
     * */
-
+    protected void avancerTondeuse(char orientation){
+        if (orientation == 'N') {
+            this.posY += 1;
+        } else if (orientation == 'E') {
+            this.posX += 1;
+        } else if (orientation == 'S') {
+            this.posY -= 1;
+        } else if (orientation == 'O') {
+            this.posX -= 1;
+        }
+    }
 
     /*
     * Getters - Setters
@@ -40,16 +50,8 @@ public class Tondeuse {
         return posX;
     }
 
-    public void setPosX(int posX) {
-        this.posX = posX;
-    }
-
     public int getPosY() {
         return posY;
-    }
-
-    public void setPosY(int posY) {
-        this.posY = posY;
     }
 
     public char getOrientation() {
@@ -60,7 +62,7 @@ public class Tondeuse {
         this.orientation = orientation;
     }
 
-    public String getNom() {
-        return nom;
+    public int getId() {
+        return id;
     }
 }
