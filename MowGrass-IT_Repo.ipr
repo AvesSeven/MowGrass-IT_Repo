@@ -6,6 +6,13 @@
     </profile>
     <version value="1.0" />
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="Amandine">
+      <words>
+        <w>tondeuse</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MowGrass-IT_Repo.iml" filepath="$PROJECT_DIR$/MowGrass-IT_Repo.iml" />
