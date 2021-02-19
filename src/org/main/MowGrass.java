@@ -1,50 +1,40 @@
 package org.main;
 
+import org.log.LogUtil;
 import org.obj.Pelouse;
 import org.obj.Tondeuse;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.FileHandler;
-import java.util.logging.Logger;
 
 /**
- * Classe MowGrass : permet de gérer l'utilisation de tondeuses automatique sur une pelouse.
+ * Classe MowGrass : permet de gérer l'utilisation de tondeuses automatiques sur une pelouse.
  * Elle implémente donc un objet Pelouse et des objets Tondeuse.
  *
  * @author Amandine Carlier
  * @version 1.0
  */
 
-public class MowGrass extends IOException{
-    // Loffer pour récupérer les éventuels problèmes liés aux mouvements de la tondeuse.
-    public Logger log = Logger.getLogger("org.main.MowGrass");
-
+public class MowGrass extends IOException {
     /**
      * Constructeur de la classe MowGrass qui permet de lancer le programme.
+     * @throws IOException : Gère les éventuelles Exception lors de la lecture ou de l'écriture d'un fichier.
      */
     public MowGrass() throws IOException {
 
-        // Gestion du fichier pour le log :
-        FileHandler fh = null;
-        try{
-            fh = new FileHandler("src/org/ressources/fichierInfo.log");
-        } catch(SecurityException | IOException e){
-            e.printStackTrace();
-        }
-        if(fh !=null){
-            log.addHandler(fh);
-        }
-        else{
-            log.warning("Problème avec le fichier...");
-        }
-        // Fin de la gestion du fichier pour le log.
+        // Pour gérer les Logs.
+        LogUtil.configLogger();
 
         int numLigneEntete = 0;
         int numLigneCorps;
         int cptTondeuses = 0;
-        int res;
         boolean loop = true;
         boolean newTondeuse = true;
         String ligne;
@@ -86,15 +76,12 @@ public class MowGrass extends IOException{
 
         numLigneCorps = numLigneEntete;
 
-        // Premier grand parcours de la liste pour ajouter toutes les tondeuses.
+        // Premier grand parcours de la liste pour ajouter toutes les tondeuses sur la pelouse.
         while (numLigneCorps < elementFichier.size()) {
             if (newTondeuse) {
                 item = elementFichier.get(numLigneCorps).split(" ");
                 tondeuse = new Tondeuse(Integer.parseInt(item[0]), Integer.parseInt(item[1]), Character.toUpperCase(item[2].charAt(0)));
-
-                if (pelouse.ajouterTondeuse(tondeuse) == 0) {
-                    log.info("La tondeuse numéro " + tondeuse.getId() + " n'a pas pu être ajouté sur la pelouse !");
-                }
+                pelouse.ajouterTondeuse(tondeuse);
             }
             newTondeuse = !newTondeuse;
 
@@ -109,12 +96,7 @@ public class MowGrass extends IOException{
             if (!newTondeuse) {
                 for(int i = 0; i < elementFichier.get(numLigneCorps).length(); i++)
                 {
-                    res = pelouse.instructionTondeuse(elementFichier.get(numLigneCorps).charAt(i), cptTondeuses);
-
-                    if(res != 1)
-                    {
-                        this.appelLogger(res, pelouse.getTondeuses().get(cptTondeuses));
-                    }
+                    pelouse.instructionTondeuse(elementFichier.get(numLigneCorps).charAt(i), cptTondeuses);
                 }
                 cptTondeuses += 1;
                 pelouse.afficherPelouse();
@@ -130,33 +112,9 @@ public class MowGrass extends IOException{
     }
 
     /**
-     * Méthode qui permet d'écrire dans fichierInfo.log en cas de problème lors de l'exécution d'une autre méthode.
-     * @param res : En fonction de la valeur de res, nous saurons le problème rencontré.
-     * @param tondeuse : Tondeuse qui a rencontré le problème.
-     */
-    public void appelLogger(int res, Tondeuse tondeuse) {
-        switch (res) {
-            case -2:
-                log.info("problème avec le nom d'une instruction de la tondeuse " + tondeuse.getId());
-                break;
-
-            case -1:
-                log.info("La tondeuse " + tondeuse.getId() + " ne peut pas avancer");
-                break;
-
-            case 0:
-                log.info("Problème avec l'orientation de la tondeuse " + tondeuse.getId());
-                break;
-
-            default:
-                log.info("Problème lors de l'appel d'une méthode");
-        }
-    }
-
-    /**
      * Méthode qui permet d'écrire les positions finales et l'orientation des tondeuses à la fin du programme.
      * @param tondeuses : Liste de Tondeuse, elle va permettre de récupérer les informations voulues.
-     * @throws  : Gère l'éventuelle Exception.
+     * @throws IOException : Gère les éventuelles Exception lors de la lecture ou de l'écriture d'un fichier.
      */
     public void ecrireResultat(List<Tondeuse> tondeuses) throws IOException {
 
@@ -172,8 +130,8 @@ public class MowGrass extends IOException{
 
     /**
      * main qui permet de lancer le programme principal.
-     * @param args arguments lors de la compilation du programme.
-     * @throws IOException : Gère l'éventuelle Exception.
+     * @param args : Arguments lors de la compilation du programme.
+     * @throws IOException : Gère les éventuelles Exception lors de la lecture ou de l'écriture d'un fichier.
      */
     public static void main(String[] args) throws IOException {
         new MowGrass();

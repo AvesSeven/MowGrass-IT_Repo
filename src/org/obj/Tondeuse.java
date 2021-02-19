@@ -2,7 +2,7 @@ package org.obj;
 
 /**
  * Classe Tondeuse : permet d'initialiser les attributs d'une tondeuse
- * et de gérer une partie des fonctionnalitées de celle-ci.
+ * et de la faire avancer selon une orientation.
  *
  * @author Amandine Carlier
  * @version 1.0
@@ -25,21 +25,21 @@ public class Tondeuse {
         this.posX = 0;
         this.posY = 0;
         this.orientation = 'N';
-        cpt++;
+        cpt += 1;
         this.id = cpt;
     }
 
     /**
-     * Constructeur qui va permettre d'initialiser les attributs d'une Tondeuse.
+     * Constructeur qui va permettre d'initialiser les attributs d'une Tondeuse avec une position et une orientation données.
      * @param posX : Position initiale en x de la Tondeuse.
      * @param posY : Position initiale en y de la Tondeuse.
-     * @param orientation : orientation initiale de la Tondeuse.
+     * @param orientation : Orientation initiale de la Tondeuse.
      */
     public Tondeuse(int posX, int posY, char orientation) {
         this.posX = posX;
         this.posY = posY;
         this.orientation = Character.toUpperCase(orientation);
-        cpt++;
+        cpt += 1;
         this.id = cpt;
     }
 
@@ -61,7 +61,7 @@ public class Tondeuse {
     }
 
     /**
-     * Getteur qui va permettre de récupérer la position finale en x de la Tondeuse (main).
+     * Getteur qui va permettre de récupérer la position finale en x de la Tondeuse (pour le main).
      * @return posX : Position finale en x de la Tondeuse.
      */
     public int getPosX() {
@@ -69,7 +69,7 @@ public class Tondeuse {
     }
 
     /**
-     * Getteur qui va permettre de récupérer la position finale en y de la Tondeuse (main).
+     * Getteur qui va permettre de récupérer la position finale en y de la Tondeuse (pour le main).
      * @return posY : Position finale en y de la Tondeuse.
      */
     public int getPosY() {
@@ -77,18 +77,10 @@ public class Tondeuse {
     }
 
     /**
-     * Getteur qui va permettre de récupérer l'orientation finale de la Tondeuse (main).
+     * Getteur qui va permettre de récupérer l'orientation finale de la Tondeuse (pour le main).
      * @return orientation : Orientation finale de la Tondeuse.
      */
     public char getOrientation() {
         return orientation;
-    }
-
-    /**
-     * Getteur qui permet de récupérer l'identifiant de la Tondeuse en cas de problème (log du main).
-     * @return id : Identifiant unique de la Tondeuse.
-     */
-    public int getId() {
-        return id;
     }
 }

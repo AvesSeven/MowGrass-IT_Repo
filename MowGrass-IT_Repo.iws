@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaa6ad3d-73cc-44a1-be47-622e73901569" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/log/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/log/logging.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MowGrass-IT_Repo.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/MowGrass-IT_Repo.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MowGrass-IT_Repo.iws" beforeDir="false" afterPath="$PROJECT_DIR$/MowGrass-IT_Repo.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/main/MowGrass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/main/MowGrass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/obj/Pelouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/obj/Pelouse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/obj/Tondeuse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/obj/Tondeuse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/ressources/fichierInfo.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/ressources/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/ressources/instructions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/ressources/resultats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/ressources/resultats.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/main/MowGrass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/main/MowGrass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/obj/Pelouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/obj/Pelouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/obj/Tondeuse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/obj/Tondeuse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ressources/fichierInfo.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="XML Properties File" />
       </list>
     </option>
   </component>
@@ -37,7 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Etudes/L2 Informatique/Semestre 3/POO/TP/Tp4 - Projet/Scrabble tp4/Scrabble" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../logACarlier" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -82,34 +86,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613594496986" />
-    <state x="707" y="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1613671211993">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="707" y="262" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1613767892446">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="707" y="252" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1613671211993" />
+    <state x="707" y="262" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1613767892446" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1613568194324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613568194324" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1613654896921">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="740" y="285" key="FileChooserDialogImpl" timestamp="1613767889689">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613654896921" />
-    <state width="1877" height="584" key="GridCell.Tab.0.bottom" timestamp="1613680849374">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613735386868" />
+    <state x="740" y="285" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1613767889689" />
+    <state width="1877" height="463" key="GridCell.Tab.0.bottom" timestamp="1613767942985">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="584" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613680849374" />
-    <state width="1877" height="584" key="GridCell.Tab.0.center" timestamp="1613680849374">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="584" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613735217350" />
+    <state width="1877" height="463" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613767942985" />
+    <state width="1877" height="463" key="GridCell.Tab.0.center" timestamp="1613767942985">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="584" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613680849374" />
-    <state width="1877" height="584" key="GridCell.Tab.0.left" timestamp="1613680849373">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="584" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613735217350" />
+    <state width="1877" height="463" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613767942985" />
+    <state width="1877" height="463" key="GridCell.Tab.0.left" timestamp="1613767942984">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="584" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613680849373" />
-    <state width="1877" height="584" key="GridCell.Tab.0.right" timestamp="1613680849374">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="584" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613735217349" />
+    <state width="1877" height="463" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613767942984" />
+    <state width="1877" height="463" key="GridCell.Tab.0.right" timestamp="1613767942985">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="584" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613680849374" />
+    <state width="1877" height="584" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613735217350" />
+    <state width="1877" height="463" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613767942985" />
     <state x="973" y="90" width="916" height="708" key="SettingsEditor" timestamp="1613511337318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -118,6 +128,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="289" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613655552498" />
+    <state x="342" y="140" key="new project wizard" timestamp="1613735388357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1613735388357" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1613589967103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
