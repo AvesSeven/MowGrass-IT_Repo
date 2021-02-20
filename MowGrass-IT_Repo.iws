@@ -2,89 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaa6ad3d-73cc-44a1-be47-622e73901569" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Javadoc/allclasses-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/allpackages-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/element-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/member-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/member-search-index.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/log/LogUtil.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/log/class-use/LogUtil.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/log/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/log/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/log/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/main/MowGrass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/main/class-use/MowGrass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/main/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/main/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/main/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/obj/Pelouse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/obj/Tondeuse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/obj/class-use/Pelouse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/obj/class-use/Tondeuse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/obj/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/obj/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/org/obj/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/package-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/package-search-index.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/resources/glass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/resources/x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/external/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jquery-3.4.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jquery-ui.structure.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jszip-utils/dist/jszip-utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jszip/dist/jszip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script-dir/jszip/dist/jszip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/serialized-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/system-properties.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/type-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javadoc/type-search-index.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MowGrass-IT_Repo.iws" beforeDir="false" afterPath="$PROJECT_DIR$/MowGrass-IT_Repo.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/main/MowGrass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/main/MowGrass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/obj/Pelouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/obj/Pelouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/obj/Tondeuse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MowGrass-IT_Repo/org/obj/Tondeuse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/main/MowGrass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/main/MowGrass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/obj/Pelouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/obj/Pelouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/obj/Tondeuse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/obj/Tondeuse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,19 +24,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1oZtsVqK6TNTuJ2r3s1DzdctG0P" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../logACarlier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Amandine\Desktop\MowGrass-IT\MowGrass-IT_Repo\src\org\log" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MowGrass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -171,35 +104,51 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613568194324" />
-    <state x="740" y="285" key="FileChooserDialogImpl" timestamp="1613767889689">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1613853762154">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613735386868" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613853762154" />
     <state x="740" y="285" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1613767889689" />
-    <state width="1877" height="458" key="GridCell.Tab.0.bottom" timestamp="1613818974851">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1876" height="268" key="GridCell.Tab.0.bottom" timestamp="1613855071434">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="584" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613735217350" />
+    <state width="1876" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613855071434" />
     <state width="1877" height="458" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613818974851" />
-    <state width="1877" height="458" key="GridCell.Tab.0.center" timestamp="1613818974851">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1876" height="268" key="GridCell.Tab.0.center" timestamp="1613855071434">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="584" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613735217350" />
+    <state width="1876" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613855071434" />
     <state width="1877" height="458" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613818974851" />
-    <state width="1877" height="458" key="GridCell.Tab.0.left" timestamp="1613818974850">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1876" height="268" key="GridCell.Tab.0.left" timestamp="1613855071434">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="584" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613735217349" />
+    <state width="1876" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613855071434" />
     <state width="1877" height="458" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613818974850" />
-    <state width="1877" height="458" key="GridCell.Tab.0.right" timestamp="1613818974851">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1876" height="268" key="GridCell.Tab.0.right" timestamp="1613855071434">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="584" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613735217350" />
+    <state width="1876" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613855071434" />
     <state width="1877" height="458" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613818974851" />
-    <state x="973" y="93" width="916" height="708" key="SettingsEditor" timestamp="1613817252688">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1876" height="348" key="GridCell.Tab.1.bottom" timestamp="1613854355663">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="973" y="90" width="916" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613511337318" />
+    <state width="1876" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613854355663" />
+    <state width="1876" height="348" key="GridCell.Tab.1.center" timestamp="1613854355663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613854355663" />
+    <state width="1876" height="348" key="GridCell.Tab.1.left" timestamp="1613854355663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613854355663" />
+    <state width="1876" height="348" key="GridCell.Tab.1.right" timestamp="1613854355663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613854355663" />
+    <state x="973" y="90" width="916" height="708" key="SettingsEditor" timestamp="1613854881462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="973" y="90" width="916" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613854881462" />
     <state x="973" y="93" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1613817252688" />
     <state x="289" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613655552498">
       <screen x="0" y="0" width="1920" height="1040" />

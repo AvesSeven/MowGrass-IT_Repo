@@ -106,7 +106,7 @@ public class MowGrass extends IOException {
             if (!newTondeuse) {
                 for(int i = 0; i < elementFichier.get(numLigneCorps).length(); i++)
                 {
-                    pelouse.instructionTondeuse(elementFichier.get(numLigneCorps).charAt(i), cptTondeuses);
+                    pelouse.instructionTondeuse(Character.toUpperCase(elementFichier.get(numLigneCorps).charAt(i)), cptTondeuses);
                 }
                 cptTondeuses += 1;
                 pelouse.afficherPelouse();

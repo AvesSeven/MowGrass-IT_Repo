@@ -87,7 +87,8 @@ public class Pelouse {
     {
 
         if(((tondeuse.posX <= n) && (tondeuse.posX >= 0)) && ((tondeuse.posY <= m) && (tondeuse.posY >= 0))
-                && ((this.grille[tondeuse.posX][tondeuse.posY].charAt(0) == '.') || (this.grille[tondeuse.posX][tondeuse.posY].charAt(0) == 'T')))
+                && ((this.grille[tondeuse.posX][tondeuse.posY].charAt(0) == '.') || (this.grille[tondeuse.posX][tondeuse.posY].charAt(0) == 'T'))
+                && ((Character.toUpperCase(tondeuse.orientation) == 'N') || (Character.toUpperCase(tondeuse.orientation) == 'E') || (Character.toUpperCase(tondeuse.orientation) == 'S') || (Character.toUpperCase(tondeuse.orientation) == 'O')))
         {
             this.tondeuses.add(tondeuse);
             this.grille[tondeuse.posX][tondeuse.posY] = String.valueOf(tondeuse.id);
