@@ -38,8 +38,9 @@ public class MowGrass extends IOException {
         boolean loop = true;
         boolean newTondeuse = true;
         String ligne;
-        String[] item = null;
+        String[] item = new String[0];
         List<String>elementFichier = new ArrayList<>();
+        List<Integer>elementSupp = new ArrayList<>();
         Tondeuse tondeuse;
         BufferedReader in = null;
         File fichier;
@@ -63,7 +64,7 @@ public class MowGrass extends IOException {
         // Fin de la gestion du fichier d'entrée.
 
         // Gestion de la liste :
-        // Récupérer les coordonnées du cin en haut à droite pour la Pelouse.
+        // Récupérer les coordonnées du coin en haut à droite de la Pelouse.
         while((numLigneEntete < elementFichier.size()) && (loop))
         {
             item = elementFichier.get(numLigneEntete).split(" ");
@@ -81,11 +82,20 @@ public class MowGrass extends IOException {
             if (newTondeuse) {
                 item = elementFichier.get(numLigneCorps).split(" ");
                 tondeuse = new Tondeuse(Integer.parseInt(item[0]), Integer.parseInt(item[1]), Character.toUpperCase(item[2].charAt(0)));
-                pelouse.ajouterTondeuse(tondeuse);
+
+                if(!pelouse.ajouterTondeuse(tondeuse)){
+                    elementSupp.add(numLigneCorps);
+                    elementSupp.add(numLigneCorps + 1);
+                }
             }
             newTondeuse = !newTondeuse;
 
             numLigneCorps += 1;
+        }
+
+        // Pour supprimer les tondeuses, ainsi que leurs intructions si elles n'ont pas été ajoutées.
+        for(int i = elementSupp.size() - 1; i >= 0; i--) {
+            elementFichier.remove(Integer.parseInt(elementSupp.get(i).toString()));
         }
 
         newTondeuse = true;

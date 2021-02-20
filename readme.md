@@ -14,10 +14,10 @@ Développement d'un programme permettant la gestion de tondeuses automatiques su
     * un espace;
     * l'orientation de la tondeuse;
     * un retour à la ligne;
-    * une liste de caractères (A : avancer, D : droite, G : gauche) pour la liste des instructions que la tondeuse doit effectuer;
+    * une liste de caractères ('A' : avancer, 'D' : droite, 'G' : gauche) pour la liste des instructions que la tondeuse doit effectuer;
     * s'il y a d'autres tondeuses, il suffira de reprendre les huits dernières étapes.
  
-2. Ensuite vous devez aller dans le dossier src, puis dans org, et enfin dans ressources pour pouvoir y placer le fichier ci-dessus.  
+2. Ensuite vous devrez aller dans le dossier src, puis dans org, et enfin dans ressources pour pouvoir y placer le fichier ci-dessus.  
     Un fichier initial contenant des instructions se trouve déjà dans le dossier ressources.  
 
 3. Ouvrir le projet via l'IDE Intellij.

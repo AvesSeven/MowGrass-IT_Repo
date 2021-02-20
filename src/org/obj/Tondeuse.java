@@ -10,7 +10,7 @@ package org.obj;
 
 public class Tondeuse {
     // Attributs protected :
-    // Cela va me permettre d'y avoir accès facilement dans le package (donc dans Pelouse).
+    // Cela va permettre à classe Pelouse d'avoir accès rapidement aux caractéristiques de ses Tondeuse.
     protected int posX;
     protected int posY;
     protected char orientation;
@@ -45,7 +45,6 @@ public class Tondeuse {
 
     /**
      * Méthode qui va permettre de faire avancer la Tondeuse dans une direction selon son orientation donnée.
-     * Méthode protected car je souhaite que son accès soit limité à son package.
      * @param orientation : Orientation qui va permettre de faire avancer la Tondeuse dans la bonne direction.
      */
     protected void avancerTondeuse(char orientation){
