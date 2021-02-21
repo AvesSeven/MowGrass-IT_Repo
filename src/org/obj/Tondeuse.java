@@ -1,5 +1,7 @@
 package org.obj;
 
+import java.util.logging.Logger;
+
 /**
  * Classe Tondeuse : permet d'initialiser les attributs d'une tondeuse
  * et de la faire avancer selon une orientation.
@@ -16,6 +18,9 @@ public class Tondeuse {
     protected char orientation;
     protected int id;
     private static int cpt;
+
+    // Pour la gestion des Logs de la Classe Tondeuse.
+    Logger log = Logger.getLogger("org.obj.Tondeuse");
 
     /**
      * Constructeur vide qui va permettre d'initialiser un objet Tondeuse
@@ -57,6 +62,48 @@ public class Tondeuse {
         } else if (orientation == 'O') {
             this.posX -= 1;
         }
+    }
+
+    /**
+     * Méthode qui permet de faire tourner à droite une Tondeuse (sans la faire avancer).
+     */
+    protected void tournerDroite() {
+        char orientation = this.orientation;
+
+        if (orientation == 'N') {
+            orientation = 'E';
+        } else if (orientation == 'E') {
+            orientation = 'S';
+        } else if (orientation == 'S') {
+            orientation = 'O';
+        } else if (orientation == 'O') {
+            orientation = 'N';
+        } else {
+            log.info("Problème rencontré avec l'une des instructions de changement d'orientation à droite de la Tondeuse " + this.id);
+        }
+
+        this.orientation = orientation;
+    }
+
+    /**
+     * Méthode qui permet de faire tourner à gauche une Tondeuse (sans la faire avancer).
+     */
+    protected void tournerGauche() {
+        char orientation = this.orientation;
+
+        if (orientation == 'N') {
+            orientation = 'O';
+        } else if (orientation == 'O') {
+            orientation = 'S';
+        } else if (orientation == 'S') {
+            orientation = 'E';
+        } else if (orientation == 'E') {
+            orientation = 'N';
+        } else {
+            log.info("Problème rencontré avec l'un des changements d'orientation à gauche de la Tondeuse " + this.id);
+        }
+
+        this.orientation = orientation;
     }
 
     /**

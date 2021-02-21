@@ -110,58 +110,14 @@ public class Pelouse {
      */
     public void instructionTondeuse(char instruction, int indice) {
         if (instruction == 'D') {
-            this.tournerDroite(indice);
+            this.tondeuses.get(indice).tournerDroite();
         } else if (instruction == 'G') {
-            this.tournerGauche(indice);
+            this.tondeuses.get(indice).tournerGauche();
         } else if (instruction == 'A') {
             this.avancer(indice);
         } else {
             log.info("Il y a eu un problème avec l'une des instructions de la Tondeuse " + this.tondeuses.get(indice).id);
         }
-    }
-
-    /**
-     * Méthode qui permet de faire tourner à droite une Tondeuse (sans la faire avancer).
-     * @param indice : Indice de le Tondeuse qui va subir une rotation à droite.
-     */
-    private void tournerDroite(int indice) {
-        char orientation = this.tondeuses.get(indice).getOrientation();
-
-        if (orientation == 'N') {
-            orientation = 'E';
-        } else if (orientation == 'E') {
-            orientation = 'S';
-        } else if (orientation == 'S') {
-            orientation = 'O';
-        } else if (orientation == 'O') {
-            orientation = 'N';
-        } else {
-            log.info("Problème rencontré avec l'une des instructions de changement d'orientation à droite de la Tondeuse " + this.tondeuses.get(indice).id);
-        }
-
-        this.tondeuses.get(indice).orientation = orientation;
-    }
-
-    /**
-     * Méthode qui permet de faire tourner à gauche une Tondeuse (sans la faire avancer).
-     * @param indice : Indice de le Tondeuse qui va subir une rotation à gauche.
-     */
-    private void tournerGauche(int indice) {
-        char orientation = this.tondeuses.get(indice).getOrientation();
-
-        if (orientation == 'N') {
-            orientation = 'O';
-        } else if (orientation == 'O') {
-            orientation = 'S';
-        } else if (orientation == 'S') {
-            orientation = 'E';
-        } else if (orientation == 'E') {
-            orientation = 'N';
-        } else {
-            log.info("Problème rencontré avec l'un des changements d'orientation à gauche de la Tondeuse " + this.tondeuses.get(indice).id);
-        }
-
-        this.tondeuses.get(indice).orientation = orientation;
     }
 
     /**
