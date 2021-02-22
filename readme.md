@@ -4,9 +4,9 @@ Développement d'un programme permettant la gestion de tondeuses automatiques su
 
 ## Avant le lancement du programme
 1. Créez un fichier "instructions.txt", celui-ci doit être formé de la façon suivant :
-    * un premier chiffre qui correpond à la position en x du point en haut à droite de la pelouse;
+    * un premier chiffre qui correspond à la position en x du point en haut à droite de la pelouse;
     * un espace;
-    * un deuxième chiffre qui correpond à la position en y du point en haut à droite de la pelouse;
+    * un deuxième chiffre qui correspond à la position en y du point en haut à droite de la pelouse;
     * un retour à la ligne;
     * la position en x de la tondeuse;
     * un espace;
